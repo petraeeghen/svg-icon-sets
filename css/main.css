@@ -1,0 +1,42 @@
+html {
+  color: #fff;
+  font-family: Overpass, sans-serif;
+}
+
+section {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+li:first-child,
+li:nth-child(2) {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn:hover {
+  color: #ff5e3a;
+  background-color: #fff;
+  border: 2px solid #ff5e3a;
+}
+
+@media only screen and (min-width: 26em) {
+
+  li:first-child,
+  li:nth-child(2) {
+    border-bottom: none;
+    border-right: 2px solid rgba(255, 255, 255, 1);
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  li:first-child,
+  li:nth-child(2) {
+    border-bottom: none;
+    border-right: 2px solid rgba(255, 255, 255, 1);
+  }
+}
